@@ -1,4 +1,4 @@
-openshift-configmap-extractor
+# openshift-configmap-extractor
 
 Extractor for config maps and their parameters in provided namespace can be used for comparing two namespaces.
 
