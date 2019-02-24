@@ -11,14 +11,14 @@ Extractor for config maps and their parameters in provided namespace can be used
   - You can detect these differences by using this simple code.
 ---------------------
 # Example:
-'''
-import ConfigMapExtractor
+  ```
+  import ConfigMapExtractor
 
-ConfigMapExtractor cme1=new ConfigMapExtractor("test-dev")
+  ConfigMapExtractor cme1=new ConfigMapExtractor("test-dev")
 
-def cm1=cme1.getConfigMapsNames()
+  def cm1=cme1.getConfigMapsNames()
 
-cm1.each {
-    println(it+": "+cme1.getConfigMapsParameters(it))
-}
-'''
+  cm1.each {
+      println(it+": "+cme1.getConfigMapsParameters(it))
+  }
+  ```
