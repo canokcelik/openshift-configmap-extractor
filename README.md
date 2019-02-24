@@ -1,6 +1,6 @@
 # openshift-configmap-extractor
 
-Extractor for config maps and their parameters in provided namespace can be used for comparing two namespaces.
+Extractor for config maps and their parameters in provided namespace, can be used for comparing two namespaces.
 
 # Example use case:
   - Say that we have DEV, INT, UAT and PROD stages.
